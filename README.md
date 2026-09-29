@@ -68,7 +68,7 @@ python examples/review.py
 - [basic.py](examples/basic.py) sends the same yes/no question as curl and prints JSON.
 - [review.py](examples/review.py) asks `choice`, `noul`, and `score` questions together.
 - [client.py](examples/client.py) shares readiness polling and bounded retries. Authentication and invalid request errors fail immediately. Retrying after a timeout can repeat inference and incur additional billed work.
-- [article_review.py](examples/article_review.py) preserves Jessica's original article example for reference.
+- [article_review.py](examples/article_review.py) preserves the original code example from the article for reference.
 
 The examples read keys from your environment. Do not commit your `.env` file.
 
