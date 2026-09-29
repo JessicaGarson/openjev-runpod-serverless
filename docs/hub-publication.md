@@ -1,6 +1,6 @@
 # Hub publication status
 
-The source repository is private by request. The public container template already exists: `rtj9l9uua2`. This is distinct from a searchable, reviewed Hub listing.
+The source repository is private by request. The [public Serverless template is directly accessible here](https://console.runpod.io/hub/template/rtj9l9uua2): `rtj9l9uua2`. Use this link in the article and README; readers do not need search visibility. This is distinct from a searchable, reviewed Hub repository listing.
 
 Prepared:
 - Digest-pinned Dockerfile using the existing public image.
@@ -15,7 +15,7 @@ Before publishing:
 3. Confirm the Hub's load-balancer test routing in its submission UI. The published tests.json schema describes job input but does not document a field to target `/v1/systemone`. Do not treat the prepared tests.json as a verified LB test harness or invent a route field. Use the included HTTP smoke client for direct validation.
 4. In Runpod Hub, choose Add your repo and submit this repository.
 5. Create release `v0.1.0`. Hub indexes releases and runs build/tests, then Runpod reviews publication.
-6. Copy the actual deployment badge URL from the published Hub UI into the README and article. No one-click Hub URL is claimed before that exists.
+6. If desired, add the repository listing's deployment badge after publication. The direct public template link above is already available independently of this review process.
 
 The connected MCP can create public container templates and deploy existing Hub listings, but exposes no tool to submit a new Hub listing.
 

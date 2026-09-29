@@ -8,3 +8,4 @@
 - LICENSE and NOTICE retained from upstream. The model weights are downloaded at runtime and are not bundled here.
 - Public template `rtj9l9uua2` read back through Runpod MCP: public=true, serverless=true, disk=60, both HTTP ports, expected environment, SSH/Jupyter disabled.
 - No new GPU endpoint, live inference result, Hub submission, or new container push is claimed.
+- Direct public page verified with an unauthenticated HTTPS fetch: https://console.runpod.io/hub/template/rtj9l9uua2 . Runpod's server-rendered page data returns template ID `rtj9l9uua2`, name `OpenJev FP8 Serverless`, and `isServerless: true`. This verifies access by link, independently of search visibility; it does not constitute a live deployment test.

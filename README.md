@@ -6,7 +6,9 @@ Run OpenJev FP8 as a load-balancer Serverless endpoint. Send text and typed ques
 
 ## Deploy
 
-Open [Runpod Serverless](https://console.runpod.io/serverless) and deploy using the public template **OpenJev FP8 Serverless**, ID `rtj9l9uua2`.
+**[Deploy OpenJev FP8 on Runpod Serverless](https://console.runpod.io/hub/template/rtj9l9uua2)**
+
+Open the direct link to the public **OpenJev FP8 Serverless** template (`rtj9l9uua2`) and start deployment from its page. You do not need to find the template in search or wait for a searchable Hub listing. The source repository can remain private.
 
 Review these endpoint settings before deploying. Container templates carry image, disk, ports, and environment variables; they do not carry endpoint type or scaling defaults.
 
