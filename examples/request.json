@@ -1,0 +1,10 @@
+{
+  "model": "openjev",
+  "state": "Review: The sound is great, but the battery barely lasts a day.",
+  "questions": {
+    "likes_sound": {
+      "type": "noul",
+      "instructions": "Does the reviewer like the sound quality?"
+    }
+  }
+}

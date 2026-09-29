@@ -1,0 +1,27 @@
+{
+  "title": "OpenJev FP8",
+  "description": "Typed decisions and confidence scores from OpenJev FP8. Model weights are CC BY-NC 4.0 for non-commercial use.",
+  "type": "serverless",
+  "category": "language",
+  "config": {
+    "runsOn": "GPU",
+    "endpointType": "LB",
+    "containerDiskInGb": 60,
+    "gpuCount": 1,
+    "gpuIds": "ADA_80_PRO",
+    "env": [
+      {
+        "key": "PORT",
+        "value": "3000"
+      },
+      {
+        "key": "PORT_HEALTH",
+        "value": "3001"
+      },
+      {
+        "key": "HEALTH_CHECK_PATH",
+        "value": "/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "openjev",
+  "templateId": "rtj9l9uua2",
+  "type": "LOAD_BALANCER",
+  "gpu": {
+    "count": 1,
+    "pools": [
+      "ADA_80_PRO"
+    ],
+    "excludedTypes": [
+      "NVIDIA H100 NVL"
+    ]
+  },
+  "workers": {
+    "min": 0,
+    "max": 1,
+    "idleTimeout": 300
+  },
+  "scaling": {
+    "type": "REQUEST_COUNT",
+    "requestCount": 1
+  },
+  "flashboot": "FLASHBOOT"
+}

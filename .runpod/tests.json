@@ -1,0 +1,36 @@
+{
+  "tests": [
+    {
+      "name": "likes_sound",
+      "input": {
+        "model": "openjev",
+        "state": "Review: The sound is great, but the battery barely lasts a day.",
+        "questions": {
+          "likes_sound": {
+            "type": "noul",
+            "instructions": "Does the reviewer like the sound quality?"
+          }
+        }
+      },
+      "timeout": 1200000
+    }
+  ],
+  "config": {
+    "gpuTypeId": "NVIDIA H100 80GB HBM3",
+    "gpuCount": 1,
+    "env": [
+      {
+        "key": "PORT",
+        "value": "3000"
+      },
+      {
+        "key": "PORT_HEALTH",
+        "value": "3001"
+      },
+      {
+        "key": "HEALTH_CHECK_PATH",
+        "value": "/"
+      }
+    ]
+  }
+}

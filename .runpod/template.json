@@ -1,0 +1,19 @@
+{
+  "name": "OpenJev FP8 Serverless",
+  "image": "ghcr.io/brandonbondig/openjev-worker@sha256:1f95a727a3de6d0a29808f59d89b49424f4d4bc78c871f5080052abb4105424d",
+  "disk": 60,
+  "ports": [
+    "3000/http",
+    "3001/http"
+  ],
+  "env": {
+    "PORT": "3000",
+    "PORT_HEALTH": "3001",
+    "HEALTH_CHECK_PATH": "/"
+  },
+  "category": "NVIDIA",
+  "public": true,
+  "serverless": true,
+  "startJupyter": false,
+  "startSsh": false
+}
