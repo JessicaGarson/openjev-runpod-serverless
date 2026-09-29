@@ -2,7 +2,7 @@
 
 Run OpenJev FP8 as a load-balancer Serverless endpoint. Send text and typed questions to `POST /v1/systemone` and receive choices, scores, and probabilities.
 
-**Status:** public repository. The public Serverless container template exists as `rtj9l9uua2`. A public Hub listing has not been submitted or approved. No live GPU smoke test has been run for this repository.
+**Status:** The repository and Serverless template are public. The template includes a published README, and the direct Serverless deployment link is below. Live GPU inference has not yet been verified for this repository. A reviewed Hub repository listing is a separate publication step; see [publication notes](docs/hub-publication.md).
 
 ## Deploy
 
