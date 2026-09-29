@@ -2,13 +2,13 @@
 
 Run OpenJev FP8 as a load-balancer Serverless endpoint. Send text and typed questions to `POST /v1/systemone` and receive choices, scores, and probabilities.
 
-**Status:** private preparation repository. The public Serverless container template exists as `rtj9l9uua2`. A public Hub listing has not been submitted or approved. No live GPU smoke test has been run for this repository.
+**Status:** public repository. The public Serverless container template exists as `rtj9l9uua2`. A public Hub listing has not been submitted or approved. No live GPU smoke test has been run for this repository.
 
 ## Deploy
 
 **[Deploy OpenJev FP8 on Runpod Serverless](https://console.runpod.io/hub/template/rtj9l9uua2)**
 
-Open the direct link to the public **OpenJev FP8 Serverless** template (`rtj9l9uua2`) and start deployment from its page. You do not need to find the template in search or wait for a searchable Hub listing. The source repository can remain private.
+Open the direct link to the public **OpenJev FP8 Serverless** template (`rtj9l9uua2`) and start deployment from its page. You do not need to find the template in search or wait for a searchable Hub listing.
 
 Review these endpoint settings before deploying. Container templates carry image, disk, ports, and environment variables; they do not carry endpoint type or scaling defaults.
 
@@ -100,7 +100,7 @@ This build and GPU inference have not been run locally. The image manifest was v
 
 ## Hub publication
 
-[.runpod/hub.json](.runpod/hub.json) declares an LB listing. [Publication notes](docs/hub-publication.md) explain the remaining release, test, and review steps. Keeping this repository private means the public Hub listing remains pending.
+[.runpod/hub.json](.runpod/hub.json) declares an LB listing. [Publication notes](docs/hub-publication.md) explain the remaining release, test, and review steps. The repository is public; Hub submission, validation, and review are separate steps.
 
 ## Attribution and licenses
 
