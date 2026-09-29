@@ -1,6 +1,6 @@
 # Hub publication status
 
-The source repository is public. The [public Serverless template is directly accessible here](https://console.runpod.io/hub/template/rtj9l9uua2): `rtj9l9uua2`. Use this link in the article and README; readers do not need search visibility. This is distinct from a searchable, reviewed Hub repository listing.
+The source repository is public. The [public Serverless template is directly accessible here](https://console.runpod.io/serverless/new-endpoint?flow=custom&tab=docker&template=rtj9l9uua2): `rtj9l9uua2`. Use this link in the article and README; readers do not need search visibility. This is distinct from a searchable, reviewed Hub repository listing.
 
 Prepared:
 - Digest-pinned Dockerfile using the existing public image.
