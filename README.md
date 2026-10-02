@@ -6,14 +6,11 @@ Run OpenJev FP8 as a load-balancer Serverless endpoint. Send text and typed ques
 
 ## Deploy
 
-**[Deploy OpenJev FP8 on Runpod Serverless](https://console.runpod.io/serverless/new-endpoint?flow=custom&tab=docker&template=rtj9l9uua2)**
-
-Open the direct link to the public **OpenJev FP8 Serverless** template (`rtj9l9uua2`) to open the Serverless endpoint creation form. Select **Load balancer** as the endpoint type before deploying. You do not need to find the template in search or wait for a searchable Hub listing.
-
 Review these endpoint settings before deploying. Container templates carry image, disk, ports, and environment variables; they do not carry endpoint type or scaling defaults.
 
 | Setting | Value |
 | --- | --- |
+| Image | ghcr.io/brandonbondig/openjev-worker@sha256:1f95a727a3de6d0a29808f59d89b49424f4d4bc78c871f5080052abb4105424d |
 | Endpoint type | Load balancer |
 | GPU | One H100 80 GB |
 | Active / max workers | 0 / 1 |
